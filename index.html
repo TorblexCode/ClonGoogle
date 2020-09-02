@@ -13,56 +13,76 @@
   </head>
   <body>
     <header class="header">
-      <div class="links">
-        <a class="links__item" href="#">Gmail</a>
-        <a class="links__item" href="#">Images</a>
-      </div>
-      <div class="google-app">
-        <a class="google-app__link" href="#" 
-         title="Google apps"
-        </a>
-      </div>
-      <div class="container-login">
-        <a class="btn " href="#"> Sing in</a>
-      </div>
+      <nav class="main-nav" aria-label="Main Navigation">
+        <ul class="main-nav__list">
+          <li class="main-nav__item">
+            <a href="#" class="main-nav__link underline"> Gmail </a>
+          </li>
+          <li class="main-nav__item">
+            <a href="#" class="main-nav__link underline"> Images</a>
+          </li>
+          <li class="main-nav__item">
+            <a class="main-nav__link" href="#" title="Google apps">
+              <div class="google-app"></div>
+            </a>
+          </li>
+          <li class="main-nav__item">
+            <a href="#" class="main-nav__link btn">Sing in</a>
+          </li>
+        </ul>
+      </nav>
     </header>
     <main class="main">
-            <picture class="logo-container">
-                <img class="logo-container__img" src="./src/img/googlelogo.png" alt="logo of google">
-            </picture>
+      <picture class="logo-container">
+        <img
+          class="logo-container__img"
+          src="./src/img/googlelogo.png"
+          alt="logo of google"
+        />
+      </picture>
 
-            <div class="search-container">
-                <input class="search-container__input" type="search" name="search" id="idsearch">
-            </div>
+      <div class="search-container">
+        <input
+          class="search-container__input"
+          type="search"
+          name="search"
+          id="idsearch"
+        />
+      </div>
 
-            <div class="container-butons">
-                <a  class="button">Google Search</a>
-                <a class="button">I'm Feeling Lucky</a>
-            </div>
-            
-            <div class="container-google-offered">
-                <p class="container-google-offered__info">Google offered in: <a class="container-google-offered__link" href="#">Español (Latinoamérica)</a></p>
-            </div>
+      <div class="container-butons">
+        <a class="button">Google Search</a>
+        <a class="button">I'm Feeling Lucky</a>
+      </div>
+
+      <div class="container-google-offered">
+        <p class="container-google-offered__info">
+          Google offered in:
+          <a class="container-google-offered__link" href="#"
+            >Español (Latinoamérica)</a
+          >
+        </p>
+      </div>
     </main>
     <footer class="footer">
-       <section class="footer-contry">
-         <p class="footer-contry__name">Bolivia</p>
-       </section>
-       <hr>
-       <section class="footer-option" >
-         <div class="container-links" >
-           <a class="container-links__link" href="#">Advertising</a>
-           <a class="container-links__link" href="#">Business</a>
-           <a class="container-links__link" href="#">About</a>
-           <a class="container-links__link" href="#">How Search works</a>
-          </div>
-         
-          <div class="container-terms">
-            <a class="container-terms__link"href="#">Privacy</a>
-            <a class="container-terms__link"href="#">Terms</a>
-            <a class="container-terms__link"href="#">Settings</a>
-          </div>
-       </section>
+      <section class="footer-contry">
+        <p class="footer-contry__name">Bolivia</p>
+      </section>
+      <hr />
+      <section class="footer-option">
+        <div class="container-links">
+          <a class="container-links__link" href="#">Advertising</a>
+          <a class="container-links__link" href="#">Business</a>
+          <a class="container-links__link" href="#">About</a>
+          <a class="container-links__link" href="#">How Search works</a>
+        </div>
+
+        <div class="container-terms">
+          <a class="container-terms__link" href="#">Privacy</a>
+          <a class="container-terms__link" href="#">Terms</a>
+          <a class="container-terms__link" href="#">Settings</a>
+        </div>
+      </section>
     </footer>
   </body>
 </html>
