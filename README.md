@@ -1,4 +1,4 @@
 # ClonGoogle
 Clon of web site of google
 
-**https://torblexcode.github.io/ClonGoogle/
+https://torblexcode.github.io/ClonGoogle/
